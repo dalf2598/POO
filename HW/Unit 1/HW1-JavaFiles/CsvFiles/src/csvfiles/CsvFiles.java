@@ -28,8 +28,8 @@ public class CsvFiles {
         
         users.add(new UserData("David L", "259876", "fleia@hotmail.com"));
         users.add(new UserData("Andres Z", "456213", "Waza@gmail.com"));
-        users.add(new UserData("Kevin C", "763512", "Caicedo_1@gmail.com"));
-        users.add(new UserData("Daniel A", "789450", "Aucas_dani@gmail.com"));
+        users.add(new UserData("Daniel L", "763512", "daniel_@gmail.com"));
+        users.add(new UserData("Edison L", "789450", "edison_lascano@yahoo.com"));
         
         //ExportarCSV(users);
         ImportarCSV();
