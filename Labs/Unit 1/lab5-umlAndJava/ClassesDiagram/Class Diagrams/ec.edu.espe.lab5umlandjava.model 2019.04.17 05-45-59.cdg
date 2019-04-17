@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ClassDiagram name="ec.edu.espe.lab5umlandjava.model">
+  <ClassDiagramComponents>
+    <Class name="A" package="ec.edu.espe.lab5umlandjava.model" visibility="public" xPosition="20.0" yPosition="20.0">
+      <Fields>
+        <Field name="a" type="int" visibility="private"/>
+        <Field name="b" type="int" visibility="private"/>
+        <Field name="c" type="int" visibility="private"/>
+      </Fields>
+      <Constructors/>
+      <Methods>
+        <Method name="m" returnType="C" visibility="public">
+          <Argument type="B" name="b"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="B" package="ec.edu.espe.lab5umlandjava.model" visibility="public" xPosition="320.0" yPosition="20.0">
+      <Fields/>
+      <Constructors/>
+      <Methods/>
+    </Class>
+    <Class name="C" package="ec.edu.espe.lab5umlandjava.model" visibility="public" xPosition="620.0" yPosition="20.0">
+      <Fields/>
+      <Constructors>
+        <Constructor visibility="package">
+          <Argument type="B" name="b"/>
+        </Constructor>
+      </Constructors>
+      <Methods/>
+    </Class>
+    <Class name="D" package="ec.edu.espe.lab5umlandjava.model" visibility="public" xPosition="920.0" yPosition="20.0">
+      <Fields>
+        <Field name="a" type="A[]" visibility="private"/>
+        <Field name="c" type="C" visibility="private"/>
+      </Fields>
+      <Constructors/>
+      <Methods>
+        <Method name="m" returnType="int" visibility="public"/>
+      </Methods>
+    </Class>
+  </ClassDiagramComponents>
+  <ClassDiagramRelations>
+    <UseRelation source="ec.edu.espe.lab5umlandjava.model.A" target="ec.edu.espe.lab5umlandjava.model.C" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="c" source="ec.edu.espe.lab5umlandjava.model.D" target="ec.edu.espe.lab5umlandjava.model.C" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+  </ClassDiagramRelations>
+</ClassDiagram>
